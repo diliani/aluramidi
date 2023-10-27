@@ -4,6 +4,11 @@ function tocaSomPom() {
 document.querySelector ('.tecla_pom').onlick= tocaSomPom;
 
 function tocaSomClap() {
-    document.querySelector('#.tecla_clap').play();
+    document.querySelector('#som.tecla_clap').play();
 }
 document.querySelector ('.tecla_clap').onlick= tocaSomClap;
+
+function tocaSomTim() {
+    document.querySelector('#som_tecla_tim').play();
+}
+document.querySelector ('.tecla_tim').onlick= tocaSomTim
