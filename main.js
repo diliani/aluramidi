@@ -4,7 +4,7 @@ function tocaSomPom() {
 document.querySelector ('.tecla_pom').onlick= tocaSomPom;
 
 function tocaSomClap() {
-    document.querySelector('#som.tecla_clap').play();
+    document.querySelector('#som_tecla_clap').play();
 }
 document.querySelector ('.tecla_clap').onlick= tocaSomClap;
 
@@ -18,3 +18,6 @@ function tocaSomPuff() {
 }
 document.querySelector ('.tecla_puff').onlick= tocaSomPuff
 
+function tocaSomSplash() {
+
+}
