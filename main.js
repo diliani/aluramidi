@@ -19,5 +19,11 @@ function tocaSomPuff() {
 document.querySelector ('.tecla_puff').onlick= tocaSomPuff
 
 function tocaSomSplash() {
-
+    document.querySelector('#som_tecla_splash').play();
 }
+document.querySelector ('.tecla_splash').onlick= tocaSomSplash
+
+function tocaSomToin() {
+    document.querySelector('#som_tecla_toin').play();
+}
+document.querySelector ('.tecla_toin').onlick= tocaSomToin
