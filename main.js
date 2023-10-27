@@ -23,7 +23,7 @@ function tocaSomSplash() {
 }
 document.querySelector ('.tecla_splash').onlick= tocaSomSplash
 
-function tocaSomToin() {
-    document.querySelector('#som_tecla_toin').play();
+function tocaSomToim() {
+    document.querySelector('#som_tecla_toim').play();
 }
-document.querySelector ('.tecla_toin').onlick= tocaSomToin
+document.querySelector ('.tecla_toim').onlick= tocaSomToim
